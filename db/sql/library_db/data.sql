@@ -103,7 +103,7 @@ SET title ='The Hate You Give',
 copyright_year = 2017
 WHERE author_id = 1;
 
-SELECT al.title,
+SELECT book.title,
 CASE
     WHEN ar.fName IS NULL THEN''
     ELSE ar.lName
