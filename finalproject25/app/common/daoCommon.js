@@ -3,7 +3,8 @@ const con = require('../../config/dbconfig')
 const daoCommon = {
 
     findAll: (res, table)=> {
-        con.execute(
+        con.execute(1
+
             `select * from ${table};`,
             (error, rows)=> {
                 if (!error) {
